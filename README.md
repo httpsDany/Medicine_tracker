@@ -29,3 +29,6 @@ Comparison table is a table use to compare the price of medicines price that use
 ![comparision_discount](https://github.com/user-attachments/assets/09d84162-fdcf-4aa2-a167-dc6b6200e0b9)
 
 Then there are two other table which simply display the Content scraped from other websites
+![pharmeasy](https://github.com/user-attachments/assets/34e29da6-4df3-46e7-a5ee-1292d888b324)
+![apollo](https://github.com/user-attachments/assets/bbb06448-7f44-4aae-a70c-80de26c9e4b7)
+
