@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>B2B Panel</title>
+  <style>
+    body { margin: 0; font-family: sans-serif; display: flex; }
+    #sidebar {
+      width: 200px;
+      background: #f0f0f0;
+      padding: 10px;
+      height: 100vh;
+      position: fixed;
+    }
+    #sidebar button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+    }
+    iframe {
+      margin-left: 210px;
+      width: calc(100% - 210px);
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="sidebar">
+    <button onclick="loadSection('pharmeasy.html')">Pharmeasy</button>
+    <button onclick="loadSection('apollo.html')">Apollo</button>
+    <button onclick="loadSection('comparison.html')">Comparison</button>
+  </div>
+  <iframe id="content-frame" src="pharmeasy.html"></iframe>
+
+  <script>
+    function loadSection(page) {
+      document.getElementById('content-frame').src = page;
+    }
+  </script>
+</body>
+</html>
+
