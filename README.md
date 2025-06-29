@@ -7,7 +7,7 @@ A roughly made project made to demonstrate 'Grabing data from external websites 
 
 *Front-end*
 -html
--java
+-js
 
 *crawler/scraper*
 -python
